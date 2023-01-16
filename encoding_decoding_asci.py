@@ -13,13 +13,13 @@ import time
 screen_real=Tk()
 screen_real.geometry('1085x780+00+00')
 screen_real.title('Encoding and Decoding creator')
-icn_pic=PhotoImage(file='spnd.png')
+icn_pic=PhotoImage(file='C:\\Users\\neha\\Links\\project2 encrypt decryt\\spnd.png')
 screen_real.iconphoto(False,icn_pic)
 screen_real.resizable(False,False)
 virtualpswd_database=['Anurag@123','Akashsir@123','12345678','anu12104']
 
 
-bg_img=PhotoImage(file='bgmp3.png')
+bg_img=PhotoImage(file='C:\\Users\\neha\\Links\\project2 encrypt decryt\\bgmp3.png')
 logo_bg_img=Label(screen_real,image=bg_img,font='300')
 logo_bg_img.place(x=0,y=0)
 
@@ -50,7 +50,7 @@ def enyrption():
         Enyrptt_screen=Toplevel(screen_real)
         Enyrptt_screen.title('Encrpted Data')
         Enyrptt_screen.geometry('500x780+800+40')
-        icn_pic=PhotoImage(file='spnd.png')
+        icn_pic=PhotoImage(file='C:\\Users\\neha\\Links\\project2 encrypt decryt\\spnd.png')
         Enyrptt_screen.iconphoto(False,icn_pic)
         Enyrptt_screen.resizable(False,False)
         Enyrptt_screen.config(bg='black')
@@ -93,7 +93,7 @@ def deyrption():
         dyrptt_screen=Toplevel(screen_real)
         dyrptt_screen.title('dycrpted Data')
         dyrptt_screen.geometry('500x780+800+40')
-        icn_pic=PhotoImage(file='spnd.png')
+        icn_pic=PhotoImage(file='C:\\Users\\neha\\Links\\project2 encrypt decryt\\spnd.png')
         dyrptt_screen.iconphoto(False,icn_pic)
         dyrptt_screen.resizable(False,False)
         dyrptt_screen.config(bg='red')
@@ -126,10 +126,10 @@ def fr():
     var.set('')
     
 #img sec fr btns.........................................................................................................
-encryptbtn=PhotoImage(file='encry.png')
-dncryptbtn=PhotoImage(file='dyrpt.png')
-restbtn=PhotoImage(file='rsst.png')
-lblbtn=PhotoImage(file='enyrpt.png')
+encryptbtn=PhotoImage(file='C:\\Users\\neha\\Links\\project2 encrypt decryt\\encry.png')
+dncryptbtn=PhotoImage(file='C:\\Users\\neha\\Links\\project2 encrypt decryt\\dyrpt.png')
+restbtn=PhotoImage(file='C:\\Users\\neha\\Links\\project2 encrypt decryt\\rsst.png')
+lblbtn=PhotoImage(file='C:\\Users\\neha\\Links\\project2 encrypt decryt\\enyrpt.png')
 
 
 
@@ -172,5 +172,5 @@ var2=Entry(textvariable=var,bd=2,show='#').place(x=690,y=381)
 
 
 
-screen_real.mainloop()
+screen_real.mainloop()#most imp to use this mainloop closing if not used it cause crash of your program...;)
 
